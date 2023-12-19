@@ -1,0 +1,17 @@
+{
+    "m_Id": "Default copy",
+    "m_ParentId": "",
+    "m_Entries": [
+        {
+            "identifier": {
+                "path": "Main Menu/Edit/Rename"
+            },
+            "combinations": [
+                {
+                    "m_KeyCode": 114,
+                    "m_Modifiers": 3
+                }
+            ]
+        }
+    ]
+}
