@@ -109,3 +109,11 @@ game object <user.text>:
 
 pretty:
     key(alt-shift-f)
+
+lambda <user.text>: """{user.formatted_text(text, "PRIVATE_CAMEL_CASE")} => {{}}"""
+
+subscribe <user.text>:
+    """
+    MessageBroker.Default
+            .Receive<Events.{user.formatted_text(text, "PUBLIC_CAMEL_CASE")}>();
+    """
